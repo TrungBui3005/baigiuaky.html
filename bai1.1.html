@@ -1,0 +1,193 @@
+<html>
+    <script>
+    // <!-- ví dụ trang 211 -->
+        function add(a,b){
+            return a+b;
+        }
+        console.log(add(5,3));
+
+    // <!-- ví dụ 212 -->
+        var multiply = function(a,b){
+            return a+b;
+        }
+        console.log(multiply(20,11));
+        
+    // <!-- ví dụ 213 -->
+        const sayhi = (name)=>{
+            console.log("Hi "+name);
+        }
+        sayhi("Trung");
+
+    // <!-- ví dụ 214 -->
+        function process(x,callback){
+            console.log("Giá trị : "+ x);
+            callback();
+        }
+        function done(){
+            console.log("Xử lý xong!");
+        }
+        process(5,done);
+
+    // <!-- ví dụ 215 -->
+        function factorial(n){
+            if(n==0) return 1;
+            return n* factorial(n-1);
+        }
+        console.log(factorial(5));
+
+    // <!-- ví dụ 218 -->
+        let score =70;
+        if(score >=90){
+            console.log("Xếp loại A");
+        } else if (score >=75){
+            console.log("Xếp loại B");
+        } else{
+            console.log("Xếp loại C");
+        }
+
+    // <!-- ví dụ trang 219 -->
+        let day = 5;
+        switch(day){
+            case 1:
+                console.log("Chủ Nhật");
+                break;
+            case 2:
+                console.log("Thứ Hai");
+                break;
+            case 3:
+                console.log("Thứ Ba");
+                break;
+            case 4:
+                console.log("Thứ Tư");
+                break;
+            default:
+                console.log("Không Hợp Lệ!");
+        }
+
+    // <!-- ví dụ trang 220 -->
+        for(let i=1;i<=5;i++){
+            console.log(i);
+        }
+        let fruits = ["Táo","Cam","Chuối","Dứa"];
+        for(let i=0;i<fruits.length;i++){
+            console.log(fruits[i]);
+        }
+
+    // <!-- ví dụ trang 221 -->
+        let person={
+            name:"Trung",
+            age:"20",
+            job:"student"
+        };
+        for(let key in person){
+            console.log(key+": "+person[key]);
+        }
+
+    // <!-- ví dụ trang 222 -->
+        let i =10;
+        while(i<=12){
+            console.log(i);
+            i++;
+        }
+
+    // <!-- ví dụ trang 223 -->
+        let j=6;
+        do{
+            console.log(j);
+            j++;
+        }while(j<=9);
+
+    // <!-- ví dụ trang 224 -->
+        for(let i=1;i<=10;i++){
+            if(i===5){
+                break;
+            }
+            console.log(i);
+        }
+
+    // <!-- ví dụ trang 225 -->
+        for(let i=1;i<=10;i++){
+            if(i%2==0){
+                continue;
+            }
+            console.log(i);
+        }
+    </script>
+
+    <!-- ví dụ trang 228 -->
+    <button id="btn">Nhấn vào đây</button><br><br>
+
+    <!-- ví dụ trang 230 -->
+    <button id="hoverBtn">Di chuột vào đây</button><br><br>
+
+    <!-- ví dụ trang 231 -->
+    <input type="text" id="inputBox" placeholder="Nhập vào đây"><br><br>
+
+    <!-- ví dụ trang 233 -->
+    <form id ="myForm">
+        <input type="text" id="name" placeholder="Nhập tên">
+        <button type="submit">Gửi</button>
+    </form>
+    <!-- ví dụ trang 261 -->
+    <head>
+     <style>
+        .highlight { color: red; font-weight: bold; }
+    </style>
+    </head>
+    <body>
+    <h1 id="title">Xin chào DOM!</h1>
+    <p class="description">Đây là một đoạn văn có class.</p>
+    <p class="description">Đây là đoạn văn thứ hai có cùng class.</p>
+    <button onclick="changeText()">Thay đổi nội dung</button>
+    <ul id="list">
+        <li>Phần tử 1</li>
+        <li>Phần tử 2</li>
+        <li>Phần tử 3</li>
+    </ul>
+    </body><br><br>
+
+    <!-- ví dụ trang 262 -->
+    <head>
+    <style>
+        #container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+    </head>
+    <body>
+    <div id="container">
+        <img id="image" src="C:\icon\new-project.png" alt="Hình ảnh ban đầu">
+        <button onclick="replaceElement()">Thay thế hình ảnh</button>
+    </div>
+    </body><br><br>
+
+    <!-- ví dụ trang 263 -->
+    <head>
+        <style>
+        #text {
+            color: blue;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px;
+        }
+    </style>
+    </head>
+    <body>
+
+    <p id="text">Đây là đoạn văn bản.</p>
+    <button onclick="getStyle()">📌 Lấy style</button>
+    <button onclick="setStyle()">🎨 Gán style</button>
+
+    <p id="result"></p>
+    </body>
+
+
+
+
+    <script language="javascript" src="js/java.js"></script>
+</html>

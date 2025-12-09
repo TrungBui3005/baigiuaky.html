@@ -1,0 +1,344 @@
+/* ví dụ 3.2 */
+div .p1-sytle{
+    color: red;
+    font-weight: bold;
+}
+/* ------------------------------------------ */
+/* ví dụ 3.3 */
+h2+.p2-tyele{
+    color: deeppink;
+}
+/* ------------------------------------------ */
+/* ví dụ 3.4 */
+h2~.p5-tyele{
+    color: rgb(255, 20, 39);
+}
+/* ------------------------------------------ */
+/* ví dụ 3.5 */
+.p3-style{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover .p3-style{
+    display: block;
+}
+/* ------------------------------------------- */
+/* ví dụ 3.6 */
+.p4-style::first-line{
+    font-weight: bold;
+    color: orange;
+}
+/* ------------------------------------------------ */
+/* ví dụ 3.1 */
+.highlight {
+    background-color: yellow;
+    color: black;            
+    padding: 2px 5px;
+}
+/* --------------------------------------------------- */
+/* ví dụ 3.7 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+}
+
+.box-px {
+    width: 200px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+}
+
+.container {  
+    width: 80%; 
+    background-color: #ccc; 
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.box-percent {
+    width: 50%; 
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text-em {
+    font-size: 2em; 
+    margin: 10px 0;
+}
+
+.text-rem {
+    font-size: 1.5rem; 
+    margin: 10px 0;
+}
+
+.full-screen {
+    width: 100vw; 
+    height: 50vh; 
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    line-height: 50vh; 
+    font-size: 20px;
+}
+/* --------------------------------------------------- */
+/* ví dụ 3.8 */
+.text-color {
+    color: blue; 
+}
+
+.text-alignment {
+    display: inline-block;
+    text-align: center; 
+    border: 1px solid blue; 
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.text-decoration {
+    color: black;
+    text-decoration: line-through; 
+    margin-bottom: 20px;
+}
+
+.text-transformation {
+    text-transform: capitalize; 
+    font-size: 30px; 
+    margin-bottom: 20px;
+}
+/* ------------------------------------------------- */
+/* ví dụ 3.9 */
+.text-spacing {
+    letter-spacing: 2px; 
+    line-height: 1.5; 
+    text-indent: 10px; 
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.line-height {
+    line-height: 2.5;
+}
+
+.letter-spacing {
+    letter-spacing: 3px; 
+}
+
+.word-spacing {
+    word-spacing: 15px; 
+}
+
+.text-decoration {
+    text-decoration: underline; 
+}
+
+.text-align {
+    text-align: justify; 
+}
+
+.text-transform {
+    text-transform: uppercase; 
+}
+
+.white-space {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.font-family {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.font-size {
+    font-size: 24px; 
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.font-variant {
+    font-variant: small-caps;
+}
+
+.font-style {
+    font-style: italic;
+}
+/* --------------------------------------------------- */
+/* ví dụ ?? */
+.box-red{
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+.box-red1{
+    position: relative;
+    background: red;
+    height: 100px;
+    width: 100px;
+    top: 150px;
+    left: 150px;
+}
+
+.box-blue{
+    position: static;
+    background: blue;
+    height: 100px;
+    width: 100px;
+}
+.box-blue1{
+    position: static;
+    background: blue;
+    height: 100px;
+    width: 100px;
+}
+/* ---------------------------------------------------- */
+/* ví dụ ?? */
+.block {
+    display: block;
+    background: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline {
+    display: inline;
+    background: lightcoral;
+    padding: 10px;
+     margin: 10px;
+}
+/* ----------------------------------------------------- */
+/* ví dụ ?? */
+.float-left{
+    float: left;
+    margin-right: 10px;
+}
+/* ----------------------------------------------------- */
+/* ví dụ ?? */
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* -------------------------------------------------- */
+/* ví dụ ?? */
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3cd82e;
+}
+.li1 {
+    float: left;
+}
+.li1 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.li1 a:hover {
+    background-color: #2460bb;
+}
+
+.active {
+    background-color: rgb(51, 24, 172);
+}
+/* ----------------------------------------------- */
+/* ví dụ ?? */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: steelblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    background: lightgray;
+    width: 250px;
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+    background: white;
+    padding: 20px;
+}
+
+.footer {
+    background: steelblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* ----------------------------------------------- */
+/* ví dụ ?? */
+.container1{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    gap: 10px;
+}
+.item1{
+    border: solid 3px blue;
+    padding: 20px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.item2{
+    border: solid 3px blue;
+    padding: 20px;
+}
+
+.container3{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.item3{
+    border: solid 3px blue;
+    padding: 20px;
+}
+
+.container4{
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+}
+.item4{
+    border: solid 3px blue;
+    padding: 20px;
+}
+
