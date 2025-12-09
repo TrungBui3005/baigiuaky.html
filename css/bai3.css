@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+        
+.even {
+    font-weight: bold;
+    color: red;  
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.odd {
+    font-weight: bold; 
+    font-style: italic; 
+    color: green;      
+    margin-right: 10px; 
+    display: inline-block;
+}
