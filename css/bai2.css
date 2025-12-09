@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center; 
+    color: blue; 
+    font-size: 14px; 
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    font-size: 14px; 
+    font-weight: 500; 
+    color: #4b5563; 
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    transition: border-color 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #4c8af7;
+    outline: none;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c8af7;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    background-color: #3b74d4;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    display: none; 
+    transition: opacity 0.3s;
+}
+
+.error-message {
+    color: #b91c1c; 
+    background-color: #fee2e2; 
+    border-color: #fca5a5; 
+}
+
+.success-message {
+    color: #1e40af; 
+    background-color: #dbeafe; 
+    border-color: #93c5fd; 
+}

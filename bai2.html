@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập 4.5.4 - Validation Form</title>
+    <link href="css/bai2.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="login-card">
+        <h2 class="header-title">Đăng Nhập Hệ Thống</h2>
+        <p class="subtitle">Bài tập 4.5.4: Validate Form</p>
+
+        <form id="loginForm">
+ 
+            <div class="form-group">
+                <label for="username" class="form-label">Tên đăng nhập (Username)</label>
+                <input type="text" id="username" name="username" placeholder="Nhập tên đăng nhập" class="form-control" autocomplete="off">
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu (Password)</label>
+                <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" class="form-control">
+            </div>
+
+            <button type="submit" class="btn-submit">
+                Đăng Nhập
+            </button>
+        </form>
+        <div id="message">
+        </div>
+    </div>
+</body>
+    <script language="javascript" src="js/bai2.js"></script>
+</html>
